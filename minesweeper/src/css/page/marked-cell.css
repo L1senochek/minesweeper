@@ -1,0 +1,8 @@
+.marked-cell {
+  background-image: url("../../assets/img/marker.png");
+  background-size: cover;
+}
+
+.batle-ground.light>.marked-cell {
+  background-image: url("../../assets/img/marker_light.png");
+}

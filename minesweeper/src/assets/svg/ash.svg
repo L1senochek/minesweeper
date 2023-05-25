@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 113 46">
+  <path id="s" stroke="#fff" stroke-linecap="round" stroke-width="0"
+    d="M83.378 43c.907-1.188 5.922-4.02 5.445-7.13-.476-3.11-9.666-7.212-8.304-11.526C81.88 20.03 90.919 13.391 90.5 9.5 90.08 5.61 81.165 2.498 78 1">
+  </path>
+  <path id="q" stroke="#fff" stroke-linecap="round" stroke-width="0"
+    d="M13.17 43c-.478-1.188-3.117-4.02-2.866-7.13.25-3.11 5.087-7.212 4.37-11.526-.716-4.314-8.89-10.467-8.67-14.358C6.225 6.096 14.334 2.498 16 1">
+  </path>
+  <path id="i" stroke="#fff" stroke-linecap="round" stroke-width="0"
+    d="M13.17 43c-.478-1.188-3.117-4.02-2.866-7.13.25-3.11 5.087-7.212 4.37-11.526-.716-4.314-8.89-10.467-8.67-14.358C6.225 6.096 14.334 2.498 16 1">
+  </path>
+  <path id="b" stroke="#fff" stroke-linecap="round" stroke-width="0"
+    d="M13.17 43c-.478-1.188-3.117-4.02-2.866-7.13.25-3.11 5.087-7.212 4.37-11.526-.716-4.314-8.89-10.467-8.67-14.358C6.225 6.096 14.334 2.498 16 1">
+  </path>
+  <path id="r" stroke="#fff" stroke-linecap="round" stroke-width="0"
+    d="M83.378 43c.907-1.188 5.922-4.02 5.445-7.13-.476-3.11-9.666-7.212-8.304-11.526C81.88 20.03 90.919 13.391 90.5 9.5 90.08 5.61 81.165 2.498 78 1">
+  </path>
+  <path id="d" stroke="#fff" stroke-linecap="round" stroke-width="0"
+    d="M83.378 43c.907-1.188 5.922-4.02 5.445-7.13-.476-3.11-9.666-7.212-8.304-11.526C81.88 20.03 90.919 13.391 90.5 9.5 90.08 5.61 81.165 2.498 78 1">
+  </path>
+  <path id="y" stroke="#fff" stroke-linecap="round" stroke-width="0"
+    d="M35.812 43c.812-1.188 4.303-4.5 5.188-7 3.316-9.37-8.965-7.342-7.746-11.656 1.218-4.314 9.622-9.953 9.246-13.844C42.124 6.61 33.832 2.498 31 1">
+  </path>
+  <path id="f" stroke="#fff" stroke-linecap="round" stroke-width="0"
+    d="M35.812 43c.812-1.188 4.303-4.5 5.188-7 3.316-9.37-8.965-7.342-7.746-11.656 1.218-4.314 9.622-9.953 9.246-13.844C42.124 6.61 33.832 2.498 31 1">
+  </path>
+  <path id="h" stroke="#fff" stroke-linecap="round" stroke-width="0"
+    d="M106.755 43c-.717-1.188-3.786-1.636-4.3-7.13C102 31 101.988 31.656 107 24c3.5-9.5-11.325-10.123-10.993-14.014C96.338 6.096 108.5 2.498 111 1">
+  </path>
+  <path id="j" stroke="#fff" stroke-linecap="round" stroke-width="0"
+    d="M106.755 43c-.717-1.188-3.786-1.636-4.3-7.13C102 31 101.988 31.656 107 24c3.5-9.5-11.325-10.123-10.993-14.014C96.338 6.096 108.5 2.498 111 1">
+  </path>
+  <g>
+    <circle r=".5" fill="#fff" fill-opacity=".1" shape-rendering="crispEdges">
+      <animateMotion dur="6s" repeatCount="indefinite">
+        <mpath href="#r"></mpath>
+      </animateMotion>
+    </circle>
+  </g>
+  <g>
+    <circle r=".5" fill="#fff" fill-opacity=".9" shape-rendering="crispEdges">
+      <animateMotion dur="4s" repeatCount="indefinite">
+        <mpath href="#q"></mpath>
+      </animateMotion>
+    </circle>
+  </g>
+  <g>
+    <circle r=".5" fill="#fff" fill-opacity=".9" shape-rendering="crispEdges">
+      <animateMotion dur="6s" repeatCount="indefinite">
+        <mpath href="#i"></mpath>
+      </animateMotion>
+    </circle>
+  </g>
+  <g>
+    <circle r=".5" fill="#fff">
+      <animateMotion dur="8s" repeatCount="indefinite">
+        <mpath href="#b"></mpath>
+      </animateMotion>
+    </circle>
+  </g>
+  <g>
+    <circle r=".5" fill="#fff" fill-opacity=".5" shape-rendering="crispEdges">
+      <animateMotion dur="5s" repeatCount="indefinite">
+        <mpath href="#d"></mpath>
+      </animateMotion>
+    </circle>
+  </g>
+  <g>
+    <circle r=".5" fill="#fff" fill-opacity=".5" shape-rendering="crispEdges">
+      <animateMotion dur="4s" repeatCount="indefinite">
+        <mpath href="#y"></mpath>
+      </animateMotion>
+    </circle>
+  </g>
+  <g>
+    <circle r=".5" fill="#fff" fill-opacity=".5" shape-rendering="crispEdges">
+      <animateMotion dur="7s" repeatCount="indefinite">
+        <mpath href="#f"></mpath>
+      </animateMotion>
+    </circle>
+  </g>
+  <g>
+    <circle r=".5" fill="#fff" fill-opacity=".7" shape-rendering="crispEdges">
+      <animateMotion dur="5s" repeatCount="indefinite">
+        <mpath href="#h"></mpath>
+      </animateMotion>
+    </circle>
+  </g>
+  <g>
+    <circle r=".5" fill="#fff" fill-opacity=".7" shape-rendering="crispEdges">
+      <animateMotion dur="4s" repeatCount="indefinite">
+        <mpath href="#j"></mpath>
+      </animateMotion>
+    </circle>
+  </g>
+  <g>
+    <circle r=".5" fill="#fff" fill-opacity=".7" shape-rendering="crispEdges">
+      <animateMotion dur="9s" repeatCount="indefinite">
+        <mpath href="#s"></mpath>
+      </animateMotion>
+    </circle>
+  </g>
+</svg>

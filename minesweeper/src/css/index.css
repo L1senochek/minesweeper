@@ -1,0 +1,20 @@
+@import url('./base/fonts.css');
+@import url('./base/base.css');
+@import url('./base/background.css');
+
+@import url('./layout/header.css');
+
+@import url('./page/preloader.css');
+
+@import url('./page/main.css');
+
+@import url('./page/light-theme.css');
+@import url('./page/media-hover.css');
+@import url('./page/background-number.css');
+
+@import url('./page/marked-cell.css');
+
+@import url('./page/gameover-modal.css');
+@import url('./page/win-modal.css');
+
+@import url('./page/media-screen.css');

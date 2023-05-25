@@ -1,0 +1,30 @@
+.frosted-glass {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  background-color: rgb(60 60 60 / 15%);
+  backdrop-filter: blur(5px);
+  background-size: cover;
+}
+
+.frosted-glass_anim {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background-image: url("../../assets/svg/fire.svg");
+}
+
+.bonfire-img {
+  position: absolute;
+  background-image: url("../../assets/gif/dark.gif");
+  bottom: 2%;
+  right: 2%;
+  width: 12vw;
+  height: 9vw;
+  background-size: cover;
+  z-index: 6;
+}

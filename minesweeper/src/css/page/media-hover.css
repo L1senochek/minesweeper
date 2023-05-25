@@ -1,0 +1,17 @@
+@media(hover: hover) {
+  .result__item-wrapper:hover>.result__item-line {
+    width: 100%;
+    border: 1px #ff6100 solid;
+    box-shadow: 0 0 10px 1px #ff6100;
+  }
+
+  .dropdown__cells-size:hover.light>.dropdown__menu-line {
+    border: 1px solid #00fdff;
+    box-shadow: #00fdff 0px 0px 10px 1px;
+  }
+
+  .background.light>.info>.info__wrapper>.info__result>.result__menu>.result__item-wrapper:hover>.result__item-line {
+    border: 1px #00fdff solid;
+    box-shadow: 0 0 10px 1px #00fdff;
+  }
+}

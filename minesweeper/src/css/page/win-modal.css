@@ -1,0 +1,65 @@
+.win {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000000e0;
+  transition: 0.5s all;
+  z-index: 10;
+}
+
+.win__modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  padding: 1.56vw;
+  transition: 0.5s all;
+  width: 60vw;
+  height: auto;
+  min-height: 34.5vw;
+  background: #000;
+  border: 1px #ff6100 solid;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px #ff6100;
+  z-index: 11;
+}
+
+.win__img {
+  width: 30vw;
+  height: 28.9vw;
+}
+
+.win__wrapper-btn {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  width: 30vw;
+  justify-content: space-evenly;
+}
+
+.win__btn {
+  border: 1px #ff6100 solid;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px #ff6100;
+  color: #ff6100;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4vw;
+  cursor: pointer;
+  z-index: 15;
+}
+
+.last-result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.body {
+  margin: 0 auto;
+  padding: 0;
+  background: #000;
+  user-select: none;
+  font-family: "Inika", "cursive", "sans-serif";
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,65 @@
+.batle-ground__cell.number_one {
+  color: #00fbff;
+  background: linear-gradient(90deg, #00fbff, #3381ff, #33fff8);
+}
+
+.batle-ground__cell.number_two {
+  color: #1eff00;
+  background: linear-gradient(90deg, #1eff00, #188000, #00ff2a);
+}
+
+.batle-ground__cell.number_three {
+  color: #ffff00;
+  background: linear-gradient(90deg, #fff700, #ff4d00, #ffc800);
+}
+
+.batle-ground__cell.number_four {
+  color: #ff00f8;
+  background: linear-gradient(90deg, #ff00f8, #b700ff, #8400ff);
+}
+
+.batle-ground__cell.number_five {
+  color: #b300ff;
+  background: linear-gradient(90deg, #6f00ff, #cc01ff, #150030);
+}
+
+.batle-ground__cell.number_six {
+  color: #ffe000;
+  background: linear-gradient(90deg, #ffe000, #ff9201, #ffce1d);
+}
+
+.batle-ground__cell.number_seven {
+  color: #ff0000;
+  background: linear-gradient(90deg, #ff0000, #ff9341, #fb5555);
+}
+
+.batle-ground__cell.number_eight {
+  color: #00adff;
+  background: linear-gradient(90deg, #00ffc4, #418aff, #7e82ff);
+}
+
+
+.batle-ground__cell.number_one,
+.batle-ground__cell.number_two,
+.batle-ground__cell.number_three,
+.batle-ground__cell.number_four,
+.batle-ground__cell.number_five,
+.batle-ground__cell.number_six,
+.batle-ground__cell.number_seven,
+.batle-ground__cell.number_eight {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: textanimation 4s linear infinite;
+}
+
+@keyframes textanimation {
+  from {
+    background-position: 0% center
+  }
+
+  to {
+    background-position: 200% center
+  }
+}

@@ -1,0 +1,449 @@
+@media all and (max-width: 1150px) {
+  .batle-ground {
+    margin-right: 5%;
+  }
+
+  .win__btn {
+    height: 5vw;
+    width: 12vw;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .bonfire-img {
+    display: none;
+  }
+
+  .header {
+    width: 95vw;
+    justify-content: space-between;
+  }
+
+  .dropdown__menu {
+    width: 9vw;
+  }
+
+  .mines__number {
+    width: 3.2vw;
+  }
+
+  [for="check-theme"] {
+    margin-left: 0.3vw;
+  }
+
+  .background {
+    width: 95vw;
+    height: 66.32vw;
+    padding-top: 3.4vw;
+  }
+
+  .batle-ground,
+  .batle-ground.easy {
+    grid-template-columns: repeat(50, 1.05vw);
+    grid-template-rows: repeat(10, 5.65vw);
+  }
+
+  .batle-ground.medium {
+    grid-template-columns: repeat(45, 1.19vw);
+    grid-template-rows: repeat(15, 3.77vw);
+  }
+
+  .batle-ground.hard {
+    grid-template-rows: repeat(25, 2.2vw);
+  }
+
+  .win__btn {
+    height: 6vw;
+    width: 14vw;
+  }
+}
+
+@media all and (max-width: 795px) {
+  .dropdown__menu {
+    width: 10vw;
+  }
+
+  .gameover__btn {
+    height: 8vw;
+    width: 15vw;
+    margin-bottom: 4vw;
+  }
+
+  .win__wrapper-btn {
+    width: 35vw;
+  }
+
+  .win__img {
+    width: 35vw;
+    height: 33.9vw;
+  }
+
+  .win__btn {
+    height: 7vw;
+    width: 15vw;
+  }
+}
+
+@media all and (max-width: 730px) {
+
+  .mines__number {
+    width: 4.2vw;
+  }
+
+  .title__arrow,
+  .timer__icon {
+    display: none;
+  }
+
+  .dropdown__menu {
+    width: 11vw;
+  }
+
+  .background {
+    background-image: url("../../assets/img/Fire-battle-map-795.png");
+    width: 95vw;
+    height: 86.71vw;
+  }
+
+  .background.light {
+    background-image: url("../../assets/img/Light-battle-map-795.png");
+  }
+
+  .info {
+    margin-left: 1vw;
+    padding-top: 1.5vw;
+  }
+
+  .hamburger__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .hamburger__line {
+    width: 100%;
+    height: 10%;
+    background-color: #ff6100;
+    box-shadow: 0 0 10px 1px #ff6100;
+    transform-origin: left;
+    transition: all 0.5s;
+  }
+
+  .hamburger__menu.active>.first-line {
+    transform: rotate(42.5deg);
+  }
+
+  .hamburger__menu.active>.second-line {
+    opacity: 0;
+  }
+
+  .hamburger__menu.active>.third-line {
+    transform: rotate(-42.5deg);
+  }
+
+  .info__wrapper {
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    align-items: flex-start;
+    left: -100%;
+    top: 19%;
+    padding: 2vw;
+    height: auto;
+    border: 1px #ff6100 solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px #ff6100;
+    background-color: rgb(0 0 0 / 85%);
+    transition: left 1s ease 0s;
+    z-index: 12;
+  }
+
+  .background.light>.info>.info__wrapper {
+    border: 1px #00fdff solid;
+    box-shadow: 0 0 10px 1px #00fdff;
+    background-color: rgb(43 43 43 / 75%);
+  }
+
+  .info__wrapper.active {
+    left: 9%;
+  }
+
+  .info__flags {
+    margin-bottom: 10%;
+    box-shadow: none;
+    padding: 2vw;
+  }
+
+  .info__result {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2vw 0;
+  }
+
+  .batle-ground,
+  .batle-ground.easy {
+    margin-right: 6%;
+    grid-template-columns: repeat(50, 1.4vw);
+    grid-template-rows: repeat(10, 7.54vw);
+
+  }
+
+  .batle-ground.medium {
+    grid-template-columns: repeat(45, 1.56vw);
+    grid-template-rows: repeat(15, 4.95vw);
+  }
+
+  .batle-ground.hard {
+    grid-template-columns: repeat(50, 1.4vw);
+    grid-template-rows: repeat(25, 2.94vw);
+  }
+
+  .win__modal,
+  .gameover__modal {
+    left: 15%;
+    width: 70vw;
+  }
+
+  .win__wrapper-btn {
+    width: 45vw;
+  }
+
+  .win__btn {
+    height: 8vw;
+    width: 19vw;
+  }
+}
+
+@media all and (max-width: 630px) {
+  .dropdown__menu {
+    width: 13vw;
+  }
+
+  .mines__number {
+    width: 5.2vw;
+  }
+
+  .win__wrapper-btn {
+    width: 55vw;
+  }
+
+  .win__btn {
+    height: 9vw;
+    width: 20vw;
+  }
+}
+
+@media all and (max-width: 570px) {
+  .dropdown__menu {
+    width: 15vw;
+  }
+
+  .win__btn {
+    height: 11vw;
+    width: 23vw;
+  }
+
+  .header {
+    width: 100vw;
+    justify-content: space-between;
+    display: inline-grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(12, 0vw);
+    grid-template-rows: repeat(2, 9vw);
+    justify-items: stretch;
+    align-items: center;
+    align-content: center;
+    padding: 3%;
+  }
+
+  .header__soung,
+  .header__theme,
+  .header__choice {
+    grid-column: auto/span 4;
+  }
+
+  .header__mines,
+  .header__count,
+  .header__timer,
+  .header__reload {
+    grid-column: auto/span 3;
+  }
+
+  .header__reload {
+    width: 4.3vw;
+    height: 4.3vw;
+  }
+
+  [for="check-theme"] {
+    margin-left: 4.3vw;
+  }
+
+  .title__arrow,
+  .timer__icon {
+    display: flex;
+  }
+
+  .title__arrow {
+    width: 3.45vw;
+    height: 3.45vw;
+    margin-right: -10vw;
+  }
+
+  .timer__icon {
+    margin-left: -2vw;
+    width: 4.57vw;
+    height: 5.1vw;
+  }
+
+  .dropdown__menu {
+    z-index: 17;
+  }
+
+  .header__reload {
+    z-index: 9;
+  }
+
+  .header__count {
+    margin-left: 3vw;
+  }
+
+  .mines__range {
+    width: 12vw;
+  }
+
+  .header__theme {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .result__text {
+    width: 15vw;
+    height: 6vw;
+  }
+
+  .info__wrapper {
+    top: 52%;
+  }
+
+}
+
+@media all and (max-width: 520px) {
+  .timer__count {
+    margin-left: -5vw;
+  }
+
+}
+
+@media all and (max-width: 500px) {
+  .header {
+    width: 100vw;
+    justify-content: space-between;
+    display: inline-grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, 24vw);
+    grid-template-rows: repeat(2, 9vw);
+    grid-template-columns: repeat(2, 47vw);
+    grid-template-rows: repeat(3, 9vw);
+    justify-items: stretch;
+    align-items: center;
+    align-content: center;
+    padding: 3%;
+  }
+
+  .header__soung,
+  .header__theme,
+  .header__choice {
+    grid-column: auto/span 1;
+  }
+
+  .header__mines,
+  .header__count,
+  .header__timer,
+  .header__reload {
+    grid-column: auto/span 1;
+  }
+
+  .header__reload {
+    grid-column: auto/span 2;
+  }
+
+  .header__timer {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .timer__icon {
+    margin-left: 0;
+    width: 4.57vw;
+    height: 5.3vw;
+  }
+
+  .timer__count {
+    margin-left: 0;
+  }
+
+  .header__reload,
+  .header__soung {
+    margin-left: 2vw;
+    width: 6.3vw;
+    height: 6.3vw;
+    background-size: cover;
+  }
+
+  .result__text {
+    width: 20vw;
+    height: 9vw;
+  }
+
+  .header__count {
+    z-index: 9;
+  }
+
+  .dropdown__menu {
+    width: 20vw;
+  }
+
+  .mines__number {
+    width: 6.2vw;
+    margin: 0 10%;
+  }
+
+  .mines__range {
+    width: 20vw;
+  }
+
+  .win__btn {
+    width: 25vw;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .win__btn {
+    height: 13vw;
+    width: 30vw;
+  }
+
+  .win__modal,
+  .gameover__modal {
+    left: 5%;
+    width: 90vw;
+    top: 15%;
+  }
+
+  .win__wrapper-btn {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .win__btn {
+    width: 37vw;
+  }
+
+  .gameover__btn {
+    height: 11vw;
+    width: 20vw;
+  }
+}

@@ -1,0 +1,225 @@
+.body.light {
+  background-color: #222222;
+}
+
+.frosted-glass.light {
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.bonfire-img.light {
+  background-image: url("../../assets/gif/light.gif");
+  background-size: cover;
+}
+
+.frosted-glass_anim.light {
+  background-image: url("../../assets/svg/ash.svg");
+  background-size: cover;
+}
+
+.header__soung.light {
+  background: url("../../assets/img/volume_up_light.png");
+  background-size: cover;
+}
+
+.header__soung.light.mute {
+  background: url("../../assets/img/volume_mute_light.png");
+  background-size: cover;
+}
+
+.header__theme.light,
+.header__timer.light>.timer__count,
+.header__choice.light,
+.header__mines.light,
+.header__count.light>.count__title,
+.header__count.light>.count__click {
+  color: #00fdff;
+  text-shadow: 0 0 10px #00fdff;
+}
+
+.title__arrow.light {
+  background-image: url("../../assets/svg/arrow_light.svg");
+  background-size: cover;
+}
+
+.dropdown__menu.active.light {
+  border: 1px solid #00fdff;
+  box-shadow: #00fdff 0px 0px 10px 1px;
+}
+
+.header__mines.light>.mines__wrapper-input>.mines__number {
+  border: 1px solid #00fdff;
+  background-color: rgba(255, 255, 255, .15);
+  color: #00fdff;
+}
+
+.header__mines.light>.mines__wrapper-input>.mines__range {
+  --slider-color: #00fdff;
+  --slider-track-color: rgba(255, 255, 255, .15);
+}
+
+.header__timer.light>.timer__icon {
+  background-image: url("../../assets/svg/timer-light.svg");
+  background-size: cover;
+}
+
+.header__reload.light {
+  background-image: url("../../assets/svg/reload_arrow_light.svg");
+  background-size: cover;
+}
+
+.background.light {
+  background-image: url("../../assets/img/Light-battle-map.png");
+  background-size: cover;
+  border: 1px #00fdff solid;
+  box-shadow: 0 0 10px 1px #00fdff;
+}
+
+.batle-ground.light {
+  background-image: radial-gradient(at 80% 10%, rgb(0 62 62 / 11%), rgb(0 50 92 / 23%));
+  background-image: radial-gradient(at 80% 10%, rgb(0 62 62 / 28%), rgb(0 50 92 / 19%));
+}
+
+.batle-ground.light>.batle-ground__cell.opened {
+  background-image: radial-gradient(at 80% 10%, rgb(0 62 62 / 11%), rgb(0 50 92 / 23%));
+}
+
+.batle-ground.light>.batle-ground__cell {
+  background-image: url("../../assets/img/cell-light.png");
+  background-size: cover;
+  border: 0.5px solid #00ffff14;
+  box-shadow: 0 0 10px 1px #00fff18a;
+}
+
+.batle-ground.light>.batle-ground__cell.mine {
+  background-image: url("../../assets/img/mine.png");
+  background-size: cover;
+}
+
+.batle-ground.light>.batle-ground__cell.number_one {
+  color: #00fbff;
+  background: linear-gradient(90deg, #00fbff, #3381ff, #33fff8);
+}
+
+.batle-ground.light>.batle-ground__cell.number_two {
+  color: #1eff00;
+  background: linear-gradient(90deg, #1eff00, #188000, #00ff2a);
+}
+
+.batle-ground.light>.batle-ground__cell.number_three {
+  color: #ffff00;
+  background: linear-gradient(90deg, #fff700, #ff4d00, #ffc800);
+}
+
+.batle-ground.light>.batle-ground__cell.number_four {
+  color: #ff00f8;
+  background: linear-gradient(90deg, #ff00f8, #b700ff, #8400ff);
+}
+
+.batle-ground.light>.batle-ground__cell.number_five {
+  color: #b300ff;
+  background: linear-gradient(90deg, #6f00ff, #cc01ff, #150030);
+}
+
+.batle-ground.light>.batle-ground__cell.number_six {
+  color: #ffe000;
+  background: linear-gradient(90deg, #ffe000, #ff9201, #ffce1d);
+}
+
+.batle-ground.light>.batle-ground__cell.number_seven {
+  color: #ff0000;
+  background: linear-gradient(90deg, #ff0000, #ff9341, #fb5555);
+}
+
+.batle-ground.light>.batle-ground__cell.number_eight {
+  color: #00adff;
+  background: linear-gradient(90deg, #00ffc4, #418aff, #7e82ff);
+}
+
+.batle-ground.light>.batle-ground__cell.number_one,
+.batle-ground.light>.batle-ground__cell.number_two,
+.batle-ground.light>.batle-ground__cell.number_three,
+.batle-ground.light>.batle-ground__cell.number_four,
+.batle-ground.light>.batle-ground__cell.number_five,
+.batle-ground.light>.batle-ground__cell.number_six,
+.batle-ground.light>.batle-ground__cell.number_seven,
+.batle-ground.light>.batle-ground__cell.number_eight {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: textanimation 4s linear infinite;
+}
+
+.body.light>.gameover>.gameover__modal {
+  border: 1px #00fdff solid;
+  box-shadow: 0 0 10px 1px #00fdff;
+}
+
+.body.light>.gameover>.gameover__modal>.gameover__btn {
+  color: #00fdff;
+  border: 1px #00fdff solid;
+  box-shadow: 0 0 10px 1px #00fdff;
+}
+
+.body.light>.win>.win__modal {
+  border: 1px #00fdff solid;
+  box-shadow: 0 0 10px 1px #00fdff;
+}
+
+.body.light>.win>.win__modal>.win__wrapper-btn>.win__btn {
+  border: 1px #00fdff solid;
+  box-shadow: 0 0 10px 1px #00fdff;
+  color: #00fdff;
+}
+
+.background.light>.info>.info__flags {
+  border: 1px #00fdff solid;
+  box-shadow: 0 0 10px 1px #00fdff;
+  color: #00fdff;
+  background-color: rgb(43 43 43 / 75%);
+}
+
+.background.light>.info>.info__result>.result__menu {
+  border-color: #00fdff;
+  background-color: rgb(43 43 43 / 75%);
+}
+
+.background.light>.info>.info__result>.result__menu>.result__item-wrapper>.result__item {
+  color: #00fdff;
+}
+
+.background.light>.info>.info__result>.result__text {
+  border: 1px #00fdff solid;
+  box-shadow: 0 0 10px 1px #00fdff;
+  color: #00fdff;
+  background-color: rgb(43 43 43 / 75%);
+}
+
+.background.light>.info>.hamburger__menu>.hamburger__line {
+  background-color: #00fdff;
+  box-shadow: 0 0 10px 1px #00fdff;
+}
+
+.background.light>.info>.info__wrapper>.info__flags {
+  border: 1px #00fdff solid;
+  box-shadow: 0 0 10px 1px #00fdff;
+  color: #00fdff;
+}
+
+.background.light>.info>.info__wrapper>.info__result>.result__menu {
+  border-color: #00fdff;
+  background-color: rgb(43 43 43 / 75%);
+}
+
+.background.light>.info>.info__wrapper>.info__result>.result__menu>.result__item-wrapper>.result__item {
+  color: #00fdff;
+}
+
+.background.light>.info>.info__wrapper>.info__result>.result__text {
+  border: 1px #00fdff solid;
+  box-shadow: 0 0 10px 1px #00fdff;
+  color: #00fdff;
+  background-color: rgb(43 43 43 / 75%);
+}
+
+`
