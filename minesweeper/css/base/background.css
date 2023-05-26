@@ -20,11 +20,11 @@
 
 .bonfire-img {
   position: absolute;
-  background-image: url("../../assets/gif/dark.gif");
+  /* background-image: url("../../assets/gif/dark.gif"); */
   bottom: 2%;
   right: 2%;
   width: 12vw;
-  height: 9vw;
+  /* height: 9vw; */
   background-size: cover;
   z-index: 6;
 }

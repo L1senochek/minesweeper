@@ -6,10 +6,10 @@
   background-color: rgba(255, 255, 255, .15);
 }
 
-.bonfire-img.light {
+/* .bonfire-img.light {
   background-image: url("../../assets/gif/light.gif");
   background-size: cover;
-}
+} */
 
 .frosted-glass_anim.light {
   background-image: url("../../assets/svg/ash.svg");

@@ -11,7 +11,7 @@ export default function changeTheme() {
   if (localStorage.getItem('checkTheme') === 'false') {
     body.classList.add('light');
     frostedGlass.classList.add('light');
-    bonfireImg.classList.add('light');
+    bonfireImg.src = './assets/mp4/light.webm';
     frostedGlassAnim.classList.add('light');
     background.classList.add('light');
     batleGround.classList.add('light');
@@ -22,6 +22,7 @@ export default function changeTheme() {
     body.classList.remove('light');
     frostedGlass.classList.remove('light');
     bonfireImg.classList.remove('light');
+    bonfireImg.src = './assets/mp4/dark.webm';
     frostedGlassAnim.classList.remove('light');
     background.classList.remove('light');
     batleGround.classList.remove('light');

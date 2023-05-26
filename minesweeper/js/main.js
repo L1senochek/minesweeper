@@ -55,7 +55,7 @@ export function createGameover() {
     gameOver.classList.add('gameover');
     gameOver.innerHTML = `
       <div class="gameover__modal">
-        <img src="./assets/gif/dead.gif" class="gameover__img-lose" alt="you died">
+      <video src="./assets/mp4/dead.mp4" class="gameover__img-lose" autoplay loop playsinline></video>
         <div class="gameover__btn">Close</div>
       </div>`;
     main.parentNode.insertBefore(gameOver, main.nextSibling);
@@ -81,7 +81,7 @@ export function createWin() {
     win.classList.add('win');
     win.innerHTML = `
       <div class="win__modal">
-        <img src="./assets/gif/victory-achieved.gif" class="win__img" alt="you died">
+      <video src="./assets/mp4/victory-achieved.mp4" class="win__img" autoplay loop playsinline></video>
         <div class="win__wrapper-btn">
           <div class="win__btn last-result">Result: </div>
           <div class="win__btn win-close">Close</div>
