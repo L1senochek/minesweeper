@@ -36,7 +36,7 @@ let batlefield;
 
 function getStoredValue() {
   const value = localStorage.getItem('valueMines');
-  if (value === null) {
+  if (!value) {
     localStorage.setItem('valueMines', '10');
     return 10;
   }
@@ -45,14 +45,9 @@ function getStoredValue() {
 mines = getStoredValue();
 
 export function updateStorage() {
-  if (!localStorage.getItem('size')) {
-    size = '10';
-    localStorage.setItem('size', size);
-    batleGround.innerHTML = '';
-  } else {
-    size = localStorage.getItem('size');
-    batleGround.innerHTML = '';
-  }
+  size = localStorage.getItem('size') || '10';
+  localStorage.setItem('size', size);
+  batleGround.innerHTML = '';
 }
 updateStorage();
 

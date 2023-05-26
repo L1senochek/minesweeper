@@ -84,7 +84,7 @@
 }
 
 .batle-ground.light>.batle-ground__cell {
-  background-image: url("../../assets/img/cell-light.png");
+  background-image: url("../../assets/img/cell-light.jpg");
   background-size: cover;
   border: 0.5px solid #00ffff14;
   box-shadow: 0 0 10px 1px #00fff18a;
